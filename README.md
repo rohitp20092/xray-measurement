@@ -4,7 +4,7 @@
 
    ```bash
    git clone https://github.com/your-username/xray-measurement.git
-   cd Xray-Cornerstone
+   cd xray-measurement
 
 ### `npm run dev`
 

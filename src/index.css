@@ -1,0 +1,37 @@
+@tailwind base;
+
+@tailwind components;
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transition: opacity 0.2s ease;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 2rem; /* Set a specific slider handle width */
+  height: 0.5rem; /* Slider handle height */
+  transition: background-color 0.2s ease;
+}
+
+.slider::-moz-range-thumb {
+  width: 2rem; /* Set a specific slider handle width */
+  height: 0.5rem; /* Slider handle height */
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+/* .slider::-moz-range-thumb:hover {
+  background: #ccc;
+} */
+
+@tailwind utilities;

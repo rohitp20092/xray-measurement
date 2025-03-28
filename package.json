@@ -1,0 +1,40 @@
+{
+  "name": "xray-measurement",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cornerstonejs/core": "^1.77.6",
+    "@cornerstonejs/dicom-image-loader": "^1.77.12",
+    "@cornerstonejs/streaming-image-volume-loader": "^1.77.6",
+    "@cornerstonejs/tools": "^1.77.6",
+    "dcmjs": "^0.33.0",
+    "dicom-parser": "^1.8.21",
+    "gitk": "^0.47.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-plugin-wasm": "^3.3.0",
+    "vitest": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
